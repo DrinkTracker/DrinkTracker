@@ -17,8 +17,8 @@ async function run() {
       // You must use the service worker notification to show the notification
       // Using new Notification("Hello World", { body: "My first notification on iOS"}) does not work on iOS
       // despite working on other platforms
-      await registration.showNotification("Fucky Sucky", {
-        body: "fat bitches",
+      await registration.showNotification("Time to fess up", {
+        body: "",
       });
     }
   });
